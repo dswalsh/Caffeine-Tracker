@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B1196BA1856BF7100688CF5 /* PNBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1196AF1856BF7100688CF5 /* PNBar.m */; };
+		6B1196BB1856BF7100688CF5 /* PNBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1196B11856BF7100688CF5 /* PNBarChart.m */; };
+		6B1196BC1856BF7100688CF5 /* PNChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1196B31856BF7100688CF5 /* PNChart.m */; };
+		6B1196BD1856BF7100688CF5 /* PNChartLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1196B51856BF7100688CF5 /* PNChartLabel.m */; };
+		6B1196BE1856BF7100688CF5 /* PNColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1196B71856BF7100688CF5 /* PNColor.m */; };
+		6B1196BF1856BF7100688CF5 /* PNLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1196B91856BF7100688CF5 /* PNLineChart.m */; };
+		6B1196C21856BFBB00688CF5 /* CTHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1196C11856BFBB00688CF5 /* CTHistoryViewController.m */; };
+		6B1196C51856BFCE00688CF5 /* CTTodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1196C41856BFCE00688CF5 /* CTTodayViewController.m */; };
+		6B130DBA183023B1007C34D1 /* CTProductListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B130DB9183023B1007C34D1 /* CTProductListViewController.m */; };
+		6B1A70501832EB53000A91B6 /* CTHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1A704F1832EB53000A91B6 /* CTHelpViewController.m */; };
+		6B505C861831217F001524E9 /* TSQCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B505C7F1831217F001524E9 /* TSQCalendarCell.m */; };
+		6B505C871831217F001524E9 /* TSQCalendarMonthHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B505C811831217F001524E9 /* TSQCalendarMonthHeaderCell.m */; };
+		6B505C881831217F001524E9 /* TSQCalendarRowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B505C831831217F001524E9 /* TSQCalendarRowCell.m */; };
+		6B505C891831217F001524E9 /* TSQCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B505C851831217F001524E9 /* TSQCalendarView.m */; };
+		6B505CE318314142001524E9 /* CTCalendarSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B505CE218314142001524E9 /* CTCalendarSubViewController.m */; };
 		6B7B7951181A074700EB51C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B7B7950181A074700EB51C5 /* Foundation.framework */; };
 		6B7B7953181A074700EB51C5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B7B7952181A074700EB51C5 /* CoreGraphics.framework */; };
 		6B7B7955181A074700EB51C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B7B7954181A074700EB51C5 /* UIKit.framework */; };
@@ -22,6 +37,19 @@
 		6B7B7972181A074700EB51C5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B7B7956181A074700EB51C5 /* CoreData.framework */; };
 		6B7B797A181A074700EB51C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B7B7978181A074700EB51C5 /* InfoPlist.strings */; };
 		6B7B797C181A074700EB51C5 /* Caffeine_TrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B797B181A074700EB51C5 /* Caffeine_TrackerTests.m */; };
+		6B7B7986181A078900EB51C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B7B7985181A078900EB51C5 /* Main.storyboard */; };
+		6B7D701D182E1059002CA727 /* CTEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7D701C182E1059002CA727 /* CTEntry.m */; };
+		6B7D7020182E105A002CA727 /* CTProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7D701F182E105A002CA727 /* CTProduct.m */; };
+		6B84E89B182996A700779614 /* CTCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B84E89A182996A700779614 /* CTCategoryViewController.m */; };
+		6B84E8AA18299CF800779614 /* CTChooserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B84E8A918299CF800779614 /* CTChooserViewController.m */; };
+		6B8C3DCF182C4BEE00DC53C6 /* CTTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8C3DCE182C4BEE00DC53C6 /* CTTrendsViewController.m */; };
+		6BA7C33C182C07BE00BC0C3F /* CTSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA7C33B182C07BE00BC0C3F /* CTSettingsViewController.m */; };
+		6BA7C345182C19E000BC0C3F /* CTMainListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA7C344182C19E000BC0C3F /* CTMainListViewController.m */; };
+		6BA7C348182C19E900BC0C3F /* CTHistoryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA7C347182C19E900BC0C3F /* CTHistoryListViewController.m */; };
+		6BCAE4C31831E2C200370FBE /* CTCustomAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCAE4C21831E2C200370FBE /* CTCustomAddViewController.m */; };
+		6BCAE4C8183200A900370FBE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCAE4C7183200A900370FBE /* QuartzCore.framework */; };
+		6BDFCDBA183080A5005C3C81 /* CTCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDFCDB9183080A5005C3C81 /* CTCalendarViewController.m */; };
+		6BFC4CE918304BCC00E0265D /* products.json in Resources */ = {isa = PBXBuildFile; fileRef = 6BFC4CE818304BCC00E0265D /* products.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +63,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6B7B794D181A074700EB51C5 /* Caffeine Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Caffeine Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B1196AE1856BF7100688CF5 /* PNBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNBar.h; sourceTree = "<group>"; };
+		6B1196AF1856BF7100688CF5 /* PNBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNBar.m; sourceTree = "<group>"; };
+		6B1196B01856BF7100688CF5 /* PNBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNBarChart.h; sourceTree = "<group>"; };
+		6B1196B11856BF7100688CF5 /* PNBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNBarChart.m; sourceTree = "<group>"; };
+		6B1196B21856BF7100688CF5 /* PNChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNChart.h; sourceTree = "<group>"; };
+		6B1196B31856BF7100688CF5 /* PNChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNChart.m; sourceTree = "<group>"; };
+		6B1196B41856BF7100688CF5 /* PNChartLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNChartLabel.h; sourceTree = "<group>"; };
+		6B1196B51856BF7100688CF5 /* PNChartLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNChartLabel.m; sourceTree = "<group>"; };
+		6B1196B61856BF7100688CF5 /* PNColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNColor.h; sourceTree = "<group>"; };
+		6B1196B71856BF7100688CF5 /* PNColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNColor.m; sourceTree = "<group>"; };
+		6B1196B81856BF7100688CF5 /* PNLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNLineChart.h; sourceTree = "<group>"; };
+		6B1196B91856BF7100688CF5 /* PNLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNLineChart.m; sourceTree = "<group>"; };
+		6B1196C01856BFBB00688CF5 /* CTHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTHistoryViewController.h; sourceTree = "<group>"; };
+		6B1196C11856BFBB00688CF5 /* CTHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTHistoryViewController.m; sourceTree = "<group>"; };
+		6B1196C31856BFCE00688CF5 /* CTTodayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTTodayViewController.h; sourceTree = "<group>"; };
+		6B1196C41856BFCE00688CF5 /* CTTodayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTTodayViewController.m; sourceTree = "<group>"; };
+		6B130DB8183023B1007C34D1 /* CTProductListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTProductListViewController.h; sourceTree = "<group>"; };
+		6B130DB9183023B1007C34D1 /* CTProductListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTProductListViewController.m; sourceTree = "<group>"; };
+		6B1A704E1832EB53000A91B6 /* CTHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTHelpViewController.h; sourceTree = "<group>"; };
+		6B1A704F1832EB53000A91B6 /* CTHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTHelpViewController.m; sourceTree = "<group>"; };
+		6B505C7C1831217F001524E9 /* TimesSquare-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TimesSquare-Prefix.pch"; sourceTree = "<group>"; };
+		6B505C7D1831217F001524E9 /* TimesSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimesSquare.h; sourceTree = "<group>"; };
+		6B505C7E1831217F001524E9 /* TSQCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSQCalendarCell.h; sourceTree = "<group>"; };
+		6B505C7F1831217F001524E9 /* TSQCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSQCalendarCell.m; sourceTree = "<group>"; };
+		6B505C801831217F001524E9 /* TSQCalendarMonthHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSQCalendarMonthHeaderCell.h; sourceTree = "<group>"; };
+		6B505C811831217F001524E9 /* TSQCalendarMonthHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSQCalendarMonthHeaderCell.m; sourceTree = "<group>"; };
+		6B505C821831217F001524E9 /* TSQCalendarRowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSQCalendarRowCell.h; sourceTree = "<group>"; };
+		6B505C831831217F001524E9 /* TSQCalendarRowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSQCalendarRowCell.m; sourceTree = "<group>"; };
+		6B505C841831217F001524E9 /* TSQCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSQCalendarView.h; sourceTree = "<group>"; };
+		6B505C851831217F001524E9 /* TSQCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSQCalendarView.m; sourceTree = "<group>"; };
+		6B505CE118314142001524E9 /* CTCalendarSubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTCalendarSubViewController.h; sourceTree = "<group>"; };
+		6B505CE218314142001524E9 /* CTCalendarSubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTCalendarSubViewController.m; sourceTree = "<group>"; };
+		6B7B794D181A074700EB51C5 /* Decaf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Decaf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B7B7950181A074700EB51C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6B7B7952181A074700EB51C5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6B7B7954181A074700EB51C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -53,6 +113,29 @@
 		6B7B7977181A074700EB51C5 /* Caffeine TrackerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Caffeine TrackerTests-Info.plist"; sourceTree = "<group>"; };
 		6B7B7979181A074700EB51C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6B7B797B181A074700EB51C5 /* Caffeine_TrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Caffeine_TrackerTests.m; sourceTree = "<group>"; };
+		6B7B7985181A078900EB51C5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		6B7D701B182E1059002CA727 /* CTEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTEntry.h; sourceTree = "<group>"; };
+		6B7D701C182E1059002CA727 /* CTEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTEntry.m; sourceTree = "<group>"; };
+		6B7D701E182E105A002CA727 /* CTProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTProduct.h; sourceTree = "<group>"; };
+		6B7D701F182E105A002CA727 /* CTProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTProduct.m; sourceTree = "<group>"; };
+		6B84E899182996A700779614 /* CTCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTCategoryViewController.h; sourceTree = "<group>"; };
+		6B84E89A182996A700779614 /* CTCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTCategoryViewController.m; sourceTree = "<group>"; };
+		6B84E8A818299CF800779614 /* CTChooserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTChooserViewController.h; sourceTree = "<group>"; };
+		6B84E8A918299CF800779614 /* CTChooserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTChooserViewController.m; sourceTree = "<group>"; };
+		6B8C3DCD182C4BEE00DC53C6 /* CTTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTTrendsViewController.h; sourceTree = "<group>"; };
+		6B8C3DCE182C4BEE00DC53C6 /* CTTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTTrendsViewController.m; sourceTree = "<group>"; };
+		6BA7C33A182C07BE00BC0C3F /* CTSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSettingsViewController.h; sourceTree = "<group>"; };
+		6BA7C33B182C07BE00BC0C3F /* CTSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSettingsViewController.m; sourceTree = "<group>"; };
+		6BA7C343182C19E000BC0C3F /* CTMainListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMainListViewController.h; sourceTree = "<group>"; };
+		6BA7C344182C19E000BC0C3F /* CTMainListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMainListViewController.m; sourceTree = "<group>"; };
+		6BA7C346182C19E900BC0C3F /* CTHistoryListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTHistoryListViewController.h; sourceTree = "<group>"; };
+		6BA7C347182C19E900BC0C3F /* CTHistoryListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTHistoryListViewController.m; sourceTree = "<group>"; };
+		6BCAE4C11831E2C200370FBE /* CTCustomAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTCustomAddViewController.h; sourceTree = "<group>"; };
+		6BCAE4C21831E2C200370FBE /* CTCustomAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTCustomAddViewController.m; sourceTree = "<group>"; };
+		6BCAE4C7183200A900370FBE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6BDFCDB8183080A5005C3C81 /* CTCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTCalendarViewController.h; sourceTree = "<group>"; };
+		6BDFCDB9183080A5005C3C81 /* CTCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTCalendarViewController.m; sourceTree = "<group>"; };
+		6BFC4CE818304BCC00E0265D /* products.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = products.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BCAE4C8183200A900370FBE /* QuartzCore.framework in Frameworks */,
 				6B7B7953181A074700EB51C5 /* CoreGraphics.framework in Frameworks */,
 				6B7B7957181A074700EB51C5 /* CoreData.framework in Frameworks */,
 				6B7B7955181A074700EB51C5 /* UIKit.framework in Frameworks */,
@@ -81,6 +165,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B1196AD1856BF7100688CF5 /* PNChart */ = {
+			isa = PBXGroup;
+			children = (
+				6B1196AE1856BF7100688CF5 /* PNBar.h */,
+				6B1196AF1856BF7100688CF5 /* PNBar.m */,
+				6B1196B01856BF7100688CF5 /* PNBarChart.h */,
+				6B1196B11856BF7100688CF5 /* PNBarChart.m */,
+				6B1196B21856BF7100688CF5 /* PNChart.h */,
+				6B1196B31856BF7100688CF5 /* PNChart.m */,
+				6B1196B41856BF7100688CF5 /* PNChartLabel.h */,
+				6B1196B51856BF7100688CF5 /* PNChartLabel.m */,
+				6B1196B61856BF7100688CF5 /* PNColor.h */,
+				6B1196B71856BF7100688CF5 /* PNColor.m */,
+				6B1196B81856BF7100688CF5 /* PNLineChart.h */,
+				6B1196B91856BF7100688CF5 /* PNLineChart.m */,
+			);
+			path = PNChart;
+			sourceTree = "<group>";
+		};
+		6B1C98751832E4010001450A /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				6BFC4CE818304BCC00E0265D /* products.json */,
+				6B7B7964181A074700EB51C5 /* Caffeine_Tracker.xcdatamodeld */,
+				6B7D701E182E105A002CA727 /* CTProduct.h */,
+				6B7D701F182E105A002CA727 /* CTProduct.m */,
+				6B7D701B182E1059002CA727 /* CTEntry.h */,
+				6B7D701C182E1059002CA727 /* CTEntry.m */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		6B1C98761832E41A0001450A /* History */ = {
+			isa = PBXGroup;
+			children = (
+				6B1196C01856BFBB00688CF5 /* CTHistoryViewController.h */,
+				6B1196C11856BFBB00688CF5 /* CTHistoryViewController.m */,
+				6B8C3DCD182C4BEE00DC53C6 /* CTTrendsViewController.h */,
+				6B8C3DCE182C4BEE00DC53C6 /* CTTrendsViewController.m */,
+				6B505CE118314142001524E9 /* CTCalendarSubViewController.h */,
+				6B505CE218314142001524E9 /* CTCalendarSubViewController.m */,
+				6BDFCDB8183080A5005C3C81 /* CTCalendarViewController.h */,
+				6BDFCDB9183080A5005C3C81 /* CTCalendarViewController.m */,
+				6BA7C346182C19E900BC0C3F /* CTHistoryListViewController.h */,
+				6BA7C347182C19E900BC0C3F /* CTHistoryListViewController.m */,
+			);
+			name = History;
+			sourceTree = "<group>";
+		};
+		6B505C8A183121F4001524E9 /* TimesSquare */ = {
+			isa = PBXGroup;
+			children = (
+				6B505C7C1831217F001524E9 /* TimesSquare-Prefix.pch */,
+				6B505C7D1831217F001524E9 /* TimesSquare.h */,
+				6B505C7E1831217F001524E9 /* TSQCalendarCell.h */,
+				6B505C7F1831217F001524E9 /* TSQCalendarCell.m */,
+				6B505C801831217F001524E9 /* TSQCalendarMonthHeaderCell.h */,
+				6B505C811831217F001524E9 /* TSQCalendarMonthHeaderCell.m */,
+				6B505C821831217F001524E9 /* TSQCalendarRowCell.h */,
+				6B505C831831217F001524E9 /* TSQCalendarRowCell.m */,
+				6B505C841831217F001524E9 /* TSQCalendarView.h */,
+				6B505C851831217F001524E9 /* TSQCalendarView.m */,
+			);
+			name = TimesSquare;
+			sourceTree = "<group>";
+		};
 		6B7B7944181A074700EB51C5 = {
 			isa = PBXGroup;
 			children = (
@@ -94,7 +244,7 @@
 		6B7B794E181A074700EB51C5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6B7B794D181A074700EB51C5 /* Caffeine Tracker.app */,
+				6B7B794D181A074700EB51C5 /* Decaf.app */,
 				6B7B796D181A074700EB51C5 /* Caffeine TrackerTests.xctest */,
 			);
 			name = Products;
@@ -103,6 +253,7 @@
 		6B7B794F181A074700EB51C5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6BCAE4C7183200A900370FBE /* QuartzCore.framework */,
 				6B7B7950181A074700EB51C5 /* Foundation.framework */,
 				6B7B7952181A074700EB51C5 /* CoreGraphics.framework */,
 				6B7B7954181A074700EB51C5 /* UIKit.framework */,
@@ -117,9 +268,15 @@
 			children = (
 				6B7B7961181A074700EB51C5 /* CTAppDelegate.h */,
 				6B7B7962181A074700EB51C5 /* CTAppDelegate.m */,
-				6B7B7967181A074700EB51C5 /* Images.xcassets */,
-				6B7B7964181A074700EB51C5 /* Caffeine_Tracker.xcdatamodeld */,
+				6B7B7985181A078900EB51C5 /* Main.storyboard */,
+				6B1C98761832E41A0001450A /* History */,
+				6BAD15B71833FD2D00FDDCBE /* Today */,
+				6BAD15B81833FD4A00FDDCBE /* Add */,
+				6B1196AD1856BF7100688CF5 /* PNChart */,
+				6B505C8A183121F4001524E9 /* TimesSquare */,
+				6B1C98751832E4010001450A /* Core Data */,
 				6B7B7959181A074700EB51C5 /* Supporting Files */,
+				6B7B7967181A074700EB51C5 /* Images.xcassets */,
 			);
 			path = "Caffeine Tracker";
 			sourceTree = "<group>";
@@ -153,6 +310,36 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6BAD15B71833FD2D00FDDCBE /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				6B1196C31856BFCE00688CF5 /* CTTodayViewController.h */,
+				6B1196C41856BFCE00688CF5 /* CTTodayViewController.m */,
+				6BA7C33A182C07BE00BC0C3F /* CTSettingsViewController.h */,
+				6BA7C33B182C07BE00BC0C3F /* CTSettingsViewController.m */,
+				6B1A704E1832EB53000A91B6 /* CTHelpViewController.h */,
+				6B1A704F1832EB53000A91B6 /* CTHelpViewController.m */,
+				6BA7C343182C19E000BC0C3F /* CTMainListViewController.h */,
+				6BA7C344182C19E000BC0C3F /* CTMainListViewController.m */,
+			);
+			name = Today;
+			sourceTree = "<group>";
+		};
+		6BAD15B81833FD4A00FDDCBE /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				6BCAE4C11831E2C200370FBE /* CTCustomAddViewController.h */,
+				6BCAE4C21831E2C200370FBE /* CTCustomAddViewController.m */,
+				6B130DB8183023B1007C34D1 /* CTProductListViewController.h */,
+				6B130DB9183023B1007C34D1 /* CTProductListViewController.m */,
+				6B84E8A818299CF800779614 /* CTChooserViewController.h */,
+				6B84E8A918299CF800779614 /* CTChooserViewController.m */,
+				6B84E899182996A700779614 /* CTCategoryViewController.h */,
+				6B84E89A182996A700779614 /* CTCategoryViewController.m */,
+			);
+			name = Add;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -170,7 +357,7 @@
 			);
 			name = "Caffeine Tracker";
 			productName = "Caffeine Tracker";
-			productReference = 6B7B794D181A074700EB51C5 /* Caffeine Tracker.app */;
+			productReference = 6B7B794D181A074700EB51C5 /* Decaf.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6B7B796C181A074700EB51C5 /* Caffeine TrackerTests */ = {
@@ -229,6 +416,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B7B7986181A078900EB51C5 /* Main.storyboard in Resources */,
+				6BFC4CE918304BCC00E0265D /* products.json in Resources */,
 				6B7B795D181A074700EB51C5 /* InfoPlist.strings in Resources */,
 				6B7B7968181A074700EB51C5 /* Images.xcassets in Resources */,
 			);
@@ -249,9 +438,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BDFCDBA183080A5005C3C81 /* CTCalendarViewController.m in Sources */,
+				6B7D701D182E1059002CA727 /* CTEntry.m in Sources */,
+				6B1196C21856BFBB00688CF5 /* CTHistoryViewController.m in Sources */,
+				6B84E89B182996A700779614 /* CTCategoryViewController.m in Sources */,
+				6BA7C33C182C07BE00BC0C3F /* CTSettingsViewController.m in Sources */,
+				6B1196BB1856BF7100688CF5 /* PNBarChart.m in Sources */,
+				6BA7C345182C19E000BC0C3F /* CTMainListViewController.m in Sources */,
+				6B1196BC1856BF7100688CF5 /* PNChart.m in Sources */,
+				6B7D7020182E105A002CA727 /* CTProduct.m in Sources */,
+				6B1196C51856BFCE00688CF5 /* CTTodayViewController.m in Sources */,
 				6B7B795F181A074700EB51C5 /* main.m in Sources */,
+				6B1196BE1856BF7100688CF5 /* PNColor.m in Sources */,
+				6B1A70501832EB53000A91B6 /* CTHelpViewController.m in Sources */,
+				6B1196BF1856BF7100688CF5 /* PNLineChart.m in Sources */,
+				6B505C891831217F001524E9 /* TSQCalendarView.m in Sources */,
+				6B84E8AA18299CF800779614 /* CTChooserViewController.m in Sources */,
+				6B8C3DCF182C4BEE00DC53C6 /* CTTrendsViewController.m in Sources */,
 				6B7B7966181A074700EB51C5 /* Caffeine_Tracker.xcdatamodeld in Sources */,
+				6BA7C348182C19E900BC0C3F /* CTHistoryListViewController.m in Sources */,
 				6B7B7963181A074700EB51C5 /* CTAppDelegate.m in Sources */,
+				6BCAE4C31831E2C200370FBE /* CTCustomAddViewController.m in Sources */,
+				6B505C871831217F001524E9 /* TSQCalendarMonthHeaderCell.m in Sources */,
+				6B1196BA1856BF7100688CF5 /* PNBar.m in Sources */,
+				6B505C881831217F001524E9 /* TSQCalendarRowCell.m in Sources */,
+				6B505C861831217F001524E9 /* TSQCalendarCell.m in Sources */,
+				6B1196BD1856BF7100688CF5 /* PNChartLabel.m in Sources */,
+				6B505CE318314142001524E9 /* CTCalendarSubViewController.m in Sources */,
+				6B130DBA183023B1007C34D1 /* CTProductListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,7 +587,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Caffeine Tracker/Caffeine Tracker-Prefix.pch";
 				INFOPLIST_FILE = "Caffeine Tracker/Caffeine Tracker-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/dwalsh/Documents/Project/Caffeine\\ Tracker/Caffeine\\ Tracker",
+				);
+				PRODUCT_NAME = Decaf;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -386,7 +604,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Caffeine Tracker/Caffeine Tracker-Prefix.pch";
 				INFOPLIST_FILE = "Caffeine Tracker/Caffeine Tracker-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/dwalsh/Documents/Project/Caffeine\\ Tracker/Caffeine\\ Tracker",
+				);
+				PRODUCT_NAME = Decaf;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -452,6 +674,7 @@
 				6B7B7981181A074700EB51C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B7B7982181A074700EB51C5 /* Build configuration list for PBXNativeTarget "Caffeine TrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +683,7 @@
 				6B7B7984181A074700EB51C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
